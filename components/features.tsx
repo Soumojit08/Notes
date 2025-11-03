@@ -4,67 +4,74 @@ import { ReactNode } from 'react'
 
 export default function Features() {
     return (
-        <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
-            <div className="@container mx-auto max-w-5xl px-6">
-                <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">Built to cover your needs</h2>
-                    <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur, praesentium iusto repellendus.</p>
-                </div>
-                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
-                    <Card className="group shadow-zinc-950/5">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Zap
-                                    className="size-6"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
+      <section className="bg-zinc-50 py-16 md:py-32 dark:bg-transparent">
+        <div className="@container mx-auto max-w-5xl px-6">
+          <div className="text-center">
+            <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
+              Everything you need to stay organized
+            </h2>
+            <p className="mt-4">
+              Powerful features designed to help you capture, organize, and find
+              your notes effortlessly.
+            </p>
+          </div>
+          <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16 bg-background">
+            <Card className="group bg-background">
+              <CardHeader className="pb-3">
+                <CardDecorator>
+                  <Zap className="size-6" aria-hidden />
+                </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Customizable</h3>
-                        </CardHeader>
+                <h3 className="mt-6 font-medium">Fast & Simple</h3>
+              </CardHeader>
 
-                        <CardContent>
-                            <p className="text-sm">Extensive customization options, allowing you to tailor every aspect to meet your specific needs.</p>
-                        </CardContent>
-                    </Card>
+              <CardContent>
+                <p className="text-sm">
+                  Create and organize notes in seconds. Clean, intuitive
+                  interface that gets out of your way so you can focus on what
+                  matters.
+                </p>
+              </CardContent>
+            </Card>
 
-                    <Card className="group shadow-zinc-950/5">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Settings2
-                                    className="size-6"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
+            <Card className="group bg-background">
+              <CardHeader className="pb-3">
+                <CardDecorator>
+                  <Settings2 className="size-6" aria-hidden />
+                </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">You have full control</h3>
-                        </CardHeader>
+                <h3 className="mt-6 font-medium">Organize & Search</h3>
+              </CardHeader>
 
-                        <CardContent>
-                            <p className="mt-3 text-sm">From design elements to functionality, you have complete control to create a unique and personalized experience.</p>
-                        </CardContent>
-                    </Card>
+              <CardContent>
+                <p className="mt-3 text-sm">
+                  Use tags, folders, and powerful search to organize your notes
+                  exactly how you want. Find anything instantly with
+                  lightning-fast search.
+                </p>
+              </CardContent>
+            </Card>
 
-                    <Card className="group shadow-zinc-950/5">
-                        <CardHeader className="pb-3">
-                            <CardDecorator>
-                                <Sparkles
-                                    className="size-6"
-                                    aria-hidden
-                                />
-                            </CardDecorator>
+            <Card className="group bg-background">
+              <CardHeader className="pb-3">
+                <CardDecorator>
+                  <Sparkles className="size-6" aria-hidden />
+                </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">Powered By AI</h3>
-                        </CardHeader>
+                <h3 className="mt-6 font-medium">Sync Everywhere</h3>
+              </CardHeader>
 
-                        <CardContent>
-                            <p className="mt-3 text-sm">Elements to functionality, you have complete control to create a unique experience.</p>
-                        </CardContent>
-                    </Card>
-                </div>
-            </div>
-        </section>
-    )
+              <CardContent>
+                <p className="mt-3 text-sm">
+                  Access your notes on any device, anywhere. Your notes sync
+                  automatically across phone, tablet, and computer in real-time.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+    );
 }
 
 const CardDecorator = ({ children }: { children: ReactNode }) => (

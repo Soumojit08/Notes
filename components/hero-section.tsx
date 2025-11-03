@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
-import { ChevronRight } from 'lucide-react'
+import Link from "next/link";
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { TextEffect } from '@/components/ui/text-effect'
@@ -51,7 +50,7 @@ export default function HeroSection() {
                     as="h1"
                     className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"
                   >
-                    Build and Ship 10x faster with NS
+                    Your Notes, Organized. Everywhere.
                   </TextEffect>
                   <TextEffect
                     per="line"
@@ -61,9 +60,9 @@ export default function HeroSection() {
                     as="p"
                     className="mt-8 max-w-2xl text-pretty text-lg"
                   >
-                    Tailwindcss highly customizable components for building
-                    modern websites and applications that look and feel the way
-                    you mean it.
+                    Capture your thoughts, organize your ideas, and access your
+                    notes from anywhere. The simplest way to keep your notes in
+                    sync across all your devices.
                   </TextEffect>
 
                   <AnimatedGroup
@@ -90,7 +89,9 @@ export default function HeroSection() {
                         className="rounded-xl px-5 text-base"
                       >
                         <Link href="#link">
-                          <span className="text-nowrap">Start Building</span>
+                          <span className="text-nowrap">
+                            Start Taking Notes
+                          </span>
                         </Link>
                       </Button>
                     </div>
@@ -102,7 +103,7 @@ export default function HeroSection() {
                       className="h-10.5 rounded-xl px-5 text-base"
                     >
                       <Link href="#link">
-                        <span className="text-nowrap">Request a demo</span>
+                        <span className="text-nowrap">Watch Demo</span>
                       </Link>
                     </Button>
                   </AnimatedGroup>

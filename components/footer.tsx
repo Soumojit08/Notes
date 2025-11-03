@@ -7,11 +7,7 @@ const links = [
     href: "#",
   },
   {
-    title: "Solution",
-    href: "#",
-  },
-  {
-    title: "Customers",
+    title: "How It Works",
     href: "#",
   },
   {
@@ -19,7 +15,11 @@ const links = [
     href: "#",
   },
   {
-    title: "Help",
+    title: "Blog",
+    href: "#",
+  },
+  {
+    title: "Help Center",
     href: "#",
   },
   {
@@ -176,7 +176,7 @@ export default function Footer() {
         </div>
         <span className="text-muted-foreground block text-center text-sm">
           {" "}
-          © {new Date().getFullYear()} Tailark, All rights reserved
+          © {new Date().getFullYear()} NoteForge, All rights reserved
         </span>
       </div>
     </footer>

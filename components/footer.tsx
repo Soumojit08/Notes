@@ -175,7 +175,6 @@ export default function Footer() {
           </Link>
         </div>
         <span className="text-muted-foreground block text-center text-sm">
-          {" "}
           © {new Date().getFullYear()} NoteForge, All rights reserved
         </span>
       </div>

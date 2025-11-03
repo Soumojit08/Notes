@@ -50,7 +50,7 @@ export default function HeroSection() {
                     as="h1"
                     className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16"
                   >
-                    Your Notes, Organized. Everywhere.
+                    Your Notes, Organized Everywhere
                   </TextEffect>
                   <TextEffect
                     per="line"
